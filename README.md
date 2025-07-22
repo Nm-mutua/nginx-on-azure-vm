@@ -1,6 +1,6 @@
 # Azure Linux Web Server Project Deployment
 
-This project demonstrates how to deploy an Apache or Nginx web server on a Linux virtual machine hosted in Microsoft Azure. The deployment is done using the Azure CLI and includes SSH access, network configuration, and basic web server setup.
+This project demonstrates how to deploy an Apache web server on a Linux virtual machine hosted in Microsoft Azure. The deployment is done using the Azure CLI and includes SSH access, network configuration, and basic web server setup.
 
 ---
 
@@ -12,6 +12,7 @@ This project demonstrates how to deploy an Apache or Nginx web server on a Linux
 - Apache
 - Bash
 - SSH
+- UFW & Fail2Ban (to prevent brute force attacks)
 - Git & GitHub
 
 ---
@@ -83,6 +84,8 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 ```
+## Screenshots
+See the `Screenshots` folder for proof of each step.
 
 
 
