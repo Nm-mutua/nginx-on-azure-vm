@@ -43,9 +43,8 @@ az vm open-port --resource-group myResourceGroup --name myLinuxvm --port 80
 ssh azureuser@52.230.189.5
 ```
 
-###  5. Install Web Server (Nginx or Apache)
+###  5. Install Web Server (Apache)
 ```bash
-       Apache:
 sudo apt update
 sudo apt install apache2 -y
 sudo systemctl enable apache2
