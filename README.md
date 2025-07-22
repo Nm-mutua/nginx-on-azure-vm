@@ -20,7 +20,8 @@ This project demonstrates how to deploy an Apache or Nginx web server on a Linux
 
 ### 1. Create a Resource Group
 ```bash
-az group create --name myResourceGroup --location Central US \\\
+az group create --name myResourceGroup --location Central US 
+\\\
 
 ### 2. Create a Linux Virtual Machine
 az vm create \
