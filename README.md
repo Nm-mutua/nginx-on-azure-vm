@@ -29,6 +29,7 @@ az vm create \
   --resource-group myResourceGroup \
   --name myLinuxVM \
   --image Ubuntu2204 \
+  --size Standard_B1s
   --admin-username azureuser \
   --generate-ssh-keys
   ```
