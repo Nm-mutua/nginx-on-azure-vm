@@ -24,29 +24,37 @@ az group create --name myResourceGroup --location "Central US"
 ```
 
 ### 2. Create a Linux Virtual Machine
+```bash
 az vm create \
   --resource-group myResourceGroup \
   --name myLinuxVM \
   --image Ubuntu2204 \
   --admin-username azureuser \
   --generate-ssh-keys
+  ```
 
  ###   3. Open Port 80 for HTTP
-az vm open-port --resource-group MyWebRG --name WebVM --port 80
+ ```bash
+az vm open-port --resource-group myResourceGroup --name myLinuxvm --port 80
+```
 
-    4. SSH into the VM
-ssh azureuser@<your-vm-public-ip>
+###    4. SSH into the VM
+```bash
+ssh azureuser@52.230.189.5
+```
 
- ###  5. Install Web Server (Nginx or Apache)
+###  5. Install Web Server (Nginx or Apache)
+```bash
        Apache:
 sudo apt update
 sudo apt install apache2 -y
 sudo systemctl enable apache2
 sudo systemctl start apache2
+```
 
  ###  6. Test in Browser
       Visit
-http://<your-vm-public-ip>
+http://52.230.189
 
 
 
