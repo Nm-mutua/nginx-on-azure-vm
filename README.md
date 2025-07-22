@@ -84,6 +84,20 @@ sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 ```
+## 📸 Screenshots
+
+| Step                        | Screenshot |
+|----------------------------|------------|
+| Create Resource Group      | ![Step 1](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/01-create-resource-group.png) |
+| Create Linux VM            | ![Step 2](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/02-create-linux-vm.png) |
+| SSH into VM                | ![Step 3](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/03-ssh-into-vm.png) |
+| Install Apache             | ![Step 4](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/04-install-apache.png) |
+| Apache Installed Output    | ![Step 5](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/05-apache-installed.png) |
+| Apache Service Status      | ![Step 6](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/06-apache-status.png) |
+| Apache Welcome Page        | ![Step 7](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/07-test-in-browser.png) |
+| UFW Rules Active           | ![Step 8](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/08-ufw-status.png) |
+| Fail2Ban Configured        | ![Step 9](https://github.com/Nm-mutua/nginx-on-azure-vm/raw/main/Screenshots/09-fail2ban-status.png) |
+
 
 
 
