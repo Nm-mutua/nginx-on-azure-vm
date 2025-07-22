@@ -86,17 +86,6 @@ sudo systemctl start fail2ban
 ```
 ## Screenshots
 
-| Step                        | Screenshot |
-|----------------------------|------------|
-| Create Resource Group      | ![Resource Group](screenshots/1.%20Create%20a%20Resource%20Group.png) |
-| Create Linux VM            | ![Create VM](screenshots/2.%20Create%20a%20Linux%20Virtual%20Machine.png) |
-| SSH into VM                | ![SSH](screenshots/4.%20SSH%20into%20the%20VM.png) |
-| Install Apache             | ![Install Apache](screenshots/5.%20Install%20Web%20Server%20(Apache).png) |
-| Apache Installed Output    | ![Apache Installed](screenshots/6.%20Apache%20Successfully%20Installed.png) |
-| Apache Service Status      | ![Apache Status](screenshots/7.%20Apache2%20Status.png) |
-| Apache Welcome Page        | ![Browser](screenshots/8.%20Test%20in%20Browser.png) |
-| UFW Rules Active           | ![UFW](screenshots/9.%20UFW%20Status.png) |
-| Fail2Ban Configured        | ![Fail2Ban](screenshots/Fail2Ban%20Status.png) |
 
 
 
