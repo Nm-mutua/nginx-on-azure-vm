@@ -1,4 +1,4 @@
-# Azure Linux Web Server Project
+# Azure Linux Web Server Project Deployment
 
 This project demonstrates how to deploy an Apache or Nginx web server on a Linux virtual machine hosted in Microsoft Azure. The deployment is done using the Azure CLI and includes SSH access, network configuration, and basic web server setup.
 
@@ -8,10 +8,11 @@ This project demonstrates how to deploy an Apache or Nginx web server on a Linux
 
 - Microsoft Azure
 - Azure CLI
-- Linux (Ubuntu 20.04)
-- Nginx / Apache
+- Linux (Ubuntu 20.04 LTS)
+- Apache
 - Bash
 - SSH
+- Git & GitHub
 
 ---
 
@@ -19,9 +20,9 @@ This project demonstrates how to deploy an Apache or Nginx web server on a Linux
 
 ### 1. Create a Resource Group
 ```bash
-az group create --name MyWebRG --location eastus
+az group create --name myResourceGroup --location "Central US"
 
-    2. Create a Linux Virtual Machine
+### 2. Create a Linux Virtual Machine
 az vm create \
   --resource-group MyWebRG \
   --name WebVM \
